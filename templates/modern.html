@@ -1,0 +1,178 @@
+<!--
+  templateType: quote
+  isAvailableForNewContent: true
+  label: Dutch It quote template 
+  screenshotPath: ../images/modern.png
+-->
+
+{% extends './layouts/base.html' %}
+
+{% block stylesheet %}
+  {{ require_css(get_asset_url("../css/modern.css")) }}
+{% endblock stylesheet %}
+
+{% block body %}
+
+<body class="hs-quotes hs-quotes--modern hs-quotes--modern-child">
+  <div class="header">
+    <div class="container">
+      {% module "logo" 
+         path="../modules/quote_logo",
+         override_default_logo="true",
+         company_logo_image.src="https://26472952.fs1.hubspotusercontent-eu1.net/hubfs/26472952/Logos%20dutch%20it.png"
+         %}
+    </div>
+  </div>
+
+  <div class="colored-section banner">
+    <div class="container">
+      {% module "quote_name"
+        label="Quote name"
+        path="@hubspot/rich_text"
+        html="<h1>{{ personalization_token('template_data.quote.hs_title', '') }}</h1>"
+      %}
+
+      <div class="quote-info_wrapper">
+        <div class="recipient-info">
+          {% module "buyer_company" path="../modules/buyer_company" %}
+          {% module "buyer_contacts" path="../modules/buyer_contacts" %}
+        </div>
+        <div class="quote-info">
+          {% module "reference" path="../modules/reference" %}
+          {% module "quote_created" path="../modules/quote_created" %}
+          {% module "quote_expires" path="../modules/quote_expires" %}
+          {% module "sender_user"
+            label="Created by"
+            path="@hubspot/rich_text",
+            html={{
+              template_translations.quote_created_by.message ~ " " ~ ptoken_sender_full_name ~ "<br>" ~
+              ptoken_sender_title ~ "<br>" ~
+              ptoken_sender_email ~ "<br>" ~
+              ptoken_sender_phone
+            }}
+          %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container comments">
+    <div class="comments-text_wrapper">
+      {% module "comments"
+        label="Comments"
+        path="@hubspot/rich_text"
+        html={{
+          "<p>
+          <b>Partner in Business pakket Dutch IT Media | VMware ⇢ Beide platformen: Dutch IT Channel &amp; Leaders</b><br>
+          <u>Periode 1 februari 2023 - 31 december 2023</u><br><br>
+
+          <b>Doelgroep Dutch IT Channel:</b> Distri’s, Vendoren, Resellers, MSPs, VARs, Service Providers &amp; SI’s.<br>
+          <b>Doelgroep Dutch IT Leaders:</b> CIO’s, CDO’s, CTO’s, CEO’s, C-1, C-2, IT-managers, -beheerders, etc.<br>
+          <b>Content middelen:</b> Interviews, video’s, blogs, social media, eventverslagen, podcasts, etc.<br><br>
+          → <em>Het uitgangspunt in deze samenwerking is de creatie van hoogwaardige geschreven en audiovisuele
+          content om awareness, tractie en leads te genereren aan zowel de channel als enduser zijde.
+          Gezamenlijk wordt in calls de rode draad bepaald en de as waarover jullie gaan communiceren via
+          ALLE Dutch IT kanalen. De content onderdelen in dit voorstel zijn onderling uitwisselbaar en onderwerp
+          van gesprek tijdens de calls met onze partnermanagers, redactie en planning.</em><br><br>
+         <b>Het voorstel 2023 omvat:</b>
+         <ul>
+          <li>Content Componenten: geschreven content online en offline | audiovisuele content</li>
+          <li>Advertising online en offline| Bannering</li>
+          <li>VIP Monitoring | accountmanager</li>
+          <li>Dutch IT Projecten, Thema’s en Events</li>
+         </ul>
+          </p>" 
+        }}
+      %}
+    </div>
+  </div>
+
+  <div class="container line-items">
+    <div class="line-items-table_wrapper">
+      {% module "line_items_table"
+        path="../modules/line_items_table",
+        line_item_column=[
+          {
+            "column_title": template_translations.item_and_description.message,
+            "column_property": "item_description"
+          },
+          {
+            "column_title": template_translations.quantity.message,
+            "column_property": "quantity"
+          },
+          {
+            "column_title": template_translations.unit_price.message,
+            "column_property": "price"
+          },
+          {
+            "column_title": template_translations.total.message,
+            "column_property": "amount"
+          }
+        ]
+      %}
+    </div>
+  </div> 
+
+ <div class="container column-list">
+      {% module "module_16772310971607" path="/cms-quotes-theme-dutch-it/modules/columns-list", label="columns list" %}
+  </div>
+
+  <div class="container total">
+    <div class="total_wrapper">
+       {% module "module_167723424346923" path="/cms-quotes-theme-dutch-it/modules/minimal_top_total", label="minimal top total" %}
+    </div>
+  </div> 
+
+  <div class="container terms">
+    {% module "terms"
+      label="Terms"
+      path="@hubspot/rich_text",
+      html={{
+        "<p><b>NOTE!</b> Dit pakket is inclusief alle productiekosten, redactie, video en fotografie.
+         <br><b>NOTE!</b> Alle door Dutch IT vervaardigde content is rechtenvrij te gebruiken!</p><br>"~
+        ptoken_terms
+      }}
+    %}
+  </div>
+
+  <div class="container esign">
+    {% module "signature" path="@hubspot/quote_signature" %}
+  </div>
+
+  <div class="container payment-schedule">
+    {% module "payment-schedule" path="@hubspot/quote_payment_schedule" %}
+  </div>
+
+  <div class="container payment">
+    {% module "payment" path="@hubspot/quote_payment" heading_tag="h2" %}
+  </div>
+
+  <div class="container contacts">
+    {% module "sender_contact" path="../modules/sender_contact" %}
+    <br>
+    {% module "sender_company"
+      label="Sender company"
+      path="@hubspot/rich_text"
+      html="
+        <div>{{ personalization_token('template_data.quote.hs_sender_company_name', '') }}</div>
+        <div>{{ personalization_token('template_data.quote.hs_sender_company_address', '') }}</div>
+        <div>{{ personalization_token('template_data.quote.hs_sender_company_address2', '') }}</div>
+        <div>
+        {{ personalization_token('template_data.quote.hs_sender_company_city', '') }},
+        {{ personalization_token('template_data.quote.hs_sender_company_state', '') }}
+        {{ personalization_token('template_data.quote.hs_sender_company_zip', '') }}
+        </div>
+        <div>{{ personalization_token('template_data.quote.hs_sender_company_country', '') }}</div>
+      "
+    %}
+  </div>
+
+  <div class="container options">
+    <div class="option_wrapper">
+      {% module "download" path="@hubspot/quote_download" %}
+      {% module "print" path="../modules/print" %}
+    </div>
+  </div>
+
+</body>
+{% endblock body %}

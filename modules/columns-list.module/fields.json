@@ -1,0 +1,202 @@
+[ {
+  "id" : "6acbb444-661e-fda7-91a1-7b6d63055cc7",
+  "name" : "title_and_description",
+  "display_width" : null,
+  "label" : "Title and description",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<strong><span style=\"text-decoration: underline;\">Thema’s &amp;amp; events waar in 2023 aan deel kan worden genomen gebruikmakend van basis componenten</span></strong><br><strong>Met de planning en uw accountmanager wordt bepaald welke projecten/thema’s worden ingezet</strong><br><strong>↓</strong>"
+}, {
+  "id" : "bdc9d959-2579-af14-2d72-2850ec18303a",
+  "name" : "padding_top",
+  "display_width" : null,
+  "label" : "spacing top",
+  "required" : false,
+  "locked" : false,
+  "display" : "text",
+  "step" : 1,
+  "type" : "number",
+  "default" : 2
+}, {
+  "id" : "d2f54213-4fb1-c1cf-ad3e-84b9ed8b82ec",
+  "name" : "padding_bottom",
+  "display_width" : null,
+  "label" : "spacing bottom",
+  "required" : false,
+  "locked" : false,
+  "display" : "text",
+  "step" : 1,
+  "type" : "number",
+  "default" : 2
+}, {
+  "id" : "b9989612-38ee-c2c1-0027-699d20703352",
+  "name" : "column",
+  "display_width" : null,
+  "label" : "Column",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "7601548b-4262-65e5-10df-56b5476dbcbe",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Dutch IT Channel Kwartaal Projecten:"
+  }, {
+    "id" : "af999007-95c9-9ad5-6442-0011774f2497",
+    "name" : "title_bold",
+    "display_width" : null,
+    "label" : "Title bold",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : true
+  }, {
+    "id" : "baeb0880-37b8-687f-39fa-536abc5c9807",
+    "name" : "list_item",
+    "display_width" : null,
+    "label" : "List item",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : null,
+      "max" : null,
+      "sorting_label_field" : null,
+      "default" : 4
+    },
+    "children" : [ {
+      "id" : "4e363ac6-8c16-c1c4-d23a-7427f2b5c071",
+      "name" : "quarter",
+      "display_width" : null,
+      "label" : "Quarter",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "Q1"
+    }, {
+      "id" : "ead28031-b87e-0960-9f85-e53f66742218",
+      "name" : "text",
+      "display_width" : null,
+      "label" : "text",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "Datacenter | Energy &amp; Green IT Project"
+    }, {
+      "id" : "4572eff3-6108-d978-f87b-fc02b2792bc2",
+      "name" : "month",
+      "display_width" : null,
+      "label" : "Month",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : ""
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "type" : "group",
+    "default" : [ {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    }, {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    }, {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    }, {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    } ]
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "title" : "Dutch IT Channel Kwartaal Projecten:",
+    "title_bold" : true,
+    "list_item" : [ {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    }, {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    }, {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    }, {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    } ]
+  }, {
+    "title" : "Dutch IT Channel Kwartaal Projecten:",
+    "title_bold" : true,
+    "list_item" : [ {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    }, {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    }, {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    }, {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    } ]
+  }, {
+    "title" : "Dutch IT Channel Kwartaal Projecten:",
+    "title_bold" : true,
+    "list_item" : [ {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    }, {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    }, {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    }, {
+      "quarter" : "Q1",
+      "text" : "Datacenter | Energy &amp; Green IT Project",
+      "month" : ""
+    } ]
+  } ]
+} ]

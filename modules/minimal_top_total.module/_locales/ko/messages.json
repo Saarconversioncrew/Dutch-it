@@ -1,0 +1,97 @@
+{
+  "first_payment_total_text.default" : {
+    "message" : "지금 만기",
+    "description" : "",
+    "placeholders" : null
+  },
+  "first_payment_total_text.inline_help_text" : {
+    "message" : "이 레이블은 체크아웃 후 남은 결제액이 있을 때 \"견적 합계 텍스트\"를 대체합니다.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "first_payment_total_text.label" : {
+    "message" : "지금 만기 합계 텍스트",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "minimal_top_total",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "total_text.default" : {
+    "message" : "합계",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_text.inline_help_text" : {
+    "message" : "총 견적 금액에 해당하는 텍스트",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_text.label" : {
+    "message" : "견적 합계 텍스트",
+    "description" : "",
+    "placeholders" : null
+  }
+}

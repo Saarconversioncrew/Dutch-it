@@ -1,0 +1,97 @@
+{
+  "first_payment_total_text.default" : {
+    "message" : "Due now",
+    "description" : "",
+    "placeholders" : null
+  },
+  "first_payment_total_text.inline_help_text" : {
+    "message" : "This label replaces \"Quote total text\" when there are payments due after checkout.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "first_payment_total_text.label" : {
+    "message" : "Due now total text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "minimal_top_total",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "total_text.default" : {
+    "message" : "Total",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_text.inline_help_text" : {
+    "message" : "The text for the total quote amount",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_text.label" : {
+    "message" : "Quote total text",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,51 @@
+[ {
+  "id" : "total_text",
+  "name" : "total_text",
+  "display_width" : null,
+  "label" : "Quote total text",
+  "inline_help_text" : "The text for the total quote amount",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : ""
+}, {
+  "id" : "first_payment_total_text",
+  "name" : "first_payment_total_text",
+  "display_width" : null,
+  "label" : "Due now total text",
+  "inline_help_text" : "This label replaces \"Quote total text\" when there are payments due after checkout.",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Due now"
+}, {
+  "id" : "0be59167-f40b-d0ec-3121-354df61713a3",
+  "name" : "text_before_total_standard",
+  "display_width" : null,
+  "label" : "Text before total standard",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "De totale kosten van het 2023 Dutch IT Partner Pakket bedragen"
+}, {
+  "id" : "2f5cfcd5-6375-3699-b30b-d02c2e5be7c0",
+  "name" : "text_after_total",
+  "display_width" : null,
+  "label" : "Text after total",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "ex./inc. BTW"
+} ]

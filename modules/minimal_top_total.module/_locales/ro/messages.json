@@ -1,0 +1,97 @@
+{
+  "first_payment_total_text.default" : {
+    "message" : "Scadent acum",
+    "description" : "",
+    "placeholders" : null
+  },
+  "first_payment_total_text.inline_help_text" : {
+    "message" : "Această etichetă înlocuiește „Text total ofertă” când există plăți scadente după finalizarea comenzii.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "first_payment_total_text.label" : {
+    "message" : "Text Total scadent acum",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "minimal_top_total",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "total_text.default" : {
+    "message" : "Total",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_text.inline_help_text" : {
+    "message" : "Textul pentru suma ofertei totale",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_text.label" : {
+    "message" : "Text Total ofertă",
+    "description" : "",
+    "placeholders" : null
+  }
+}

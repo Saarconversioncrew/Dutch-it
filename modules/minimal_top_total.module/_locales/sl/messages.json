@@ -1,0 +1,97 @@
+{
+  "first_payment_total_text.default" : {
+    "message" : "Zapade zdaj",
+    "description" : "",
+    "placeholders" : null
+  },
+  "first_payment_total_text.inline_help_text" : {
+    "message" : "Ta oznaka nadomešča besedilo »Ponudite celotno besedilo«, ko so po zaključku plačila zapadla plačila.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "first_payment_total_text.label" : {
+    "message" : "Zapade zdaj celotno besedilo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "minimal_top_total",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "total_text.default" : {
+    "message" : "Skupaj",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_text.inline_help_text" : {
+    "message" : "Besedilo za celoten znesek ponudbe",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_text.label" : {
+    "message" : "Besedilo skupnega zneska ponudbe",
+    "description" : "",
+    "placeholders" : null
+  }
+}

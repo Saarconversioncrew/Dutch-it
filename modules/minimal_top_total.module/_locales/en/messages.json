@@ -1,0 +1,107 @@
+{
+  "first_payment_total_text.default" : {
+    "message" : "Due now",
+    "description" : "",
+    "placeholders" : null
+  },
+  "first_payment_total_text.inline_help_text" : {
+    "message" : "This label replaces \"Quote total text\" when there are payments due after checkout.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "first_payment_total_text.label" : {
+    "message" : "Due now total text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "minimal_top_total",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_after_total.default" : {
+    "message" : "ex./inc. BTW",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_after_total.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.default" : {
+    "message" : "De totale kosten van het 2023 Dutch IT Partner Pakket bedragen",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "text_before_total_standard.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "total_text.default" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_text.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "total_text.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_text.label" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_text.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "dollar-sign",
+  "host_template_types" : [ "QUOTE" ],
+  "module_id" : 62491043791,
+  "label" : "Quote total",
+  "is_available_for_new_content" : true
+}

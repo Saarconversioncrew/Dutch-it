@@ -1,0 +1,7 @@
+{
+  "global" : false,
+  "host_template_types" : [ "QUOTE" ],
+  "module_id" : 62486870769,
+  "label" : "columns-list",
+  "is_available_for_new_content" : true
+}

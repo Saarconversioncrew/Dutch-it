@@ -1,0 +1,8 @@
+.quote-total-child{
+   border-top: 1px solid;
+   border-bottom: 1px solid;
+   padding: 1rem 0;
+}
+.quote-total-child .bold{
+  font-weight: bold;
+}
