@@ -8,7 +8,7 @@
 {% set FUTURE_CHARGES = ASSOCIATED_OBJECTS.line_items_by_start_date.FUTURE %}
 
 <section class="quote-total quote-total-child">
-  <span class="bold">{{ module.text_before_total_standard }}{{ FUTURE_CHARGES|length > 0 ? module.first_payment_total_text : module.total_text }}</span>
+  <span class="bold">{{ module.text_before_total_standard }} {{ FUTURE_CHARGES|length > 0 ? module.first_payment_total_text : module.total_text }}</span>
   <span class="bold">{{ QUOTE_TOTAL|format_currency(LOCALE, CURRENCY, true) }}</span>
   <span>
    {{ module.text_after_total }} 
